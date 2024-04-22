@@ -1,0 +1,82 @@
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    object-position: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background:#151515;
+    opacity: 2;
+    mix-blend-mode: overlay;
+}
+
+.promo{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+.promo h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 700;
+}
+
+.promo p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 600;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    padding: 30px 50;
+    width: 200px;
+    background-color:#f5be09;
+    font-size: 1.5rem;
+    color: #3f3f3f;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    margin-top: 40px;
+}
+
+button:focus{
+    outline: none;
+}
+
+button :hover{
+    background-color: red;
+    transform: scale(1.2);
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+}

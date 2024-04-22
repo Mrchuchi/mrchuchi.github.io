@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    color: dodgerblue;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+.content {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    color: dodgerblue;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+
+}
+
+.contact-wrapper>* {
+    padding: 0.5em;
+}
+
+.contact-form {
+    background-color: #222222;
+}
+
+
+.contact-form form {
+    margin: 5;
+    padding: .7em;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    
+}
+
+
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form select {
+    width: 100%;
+    padding: .7em 1mm;
+    border: none;
+    color: dodgerblue;
+    border-bottom: 1px solid;
+    background: none;
+}
+
+.contact-form form button {
+    background: dodgerblue;
+    color: white;
+    border: 0;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+
+.btn-2 {
+    margin-left: 10px;
+}
+
+.btn-4 {
+    margin-left: 10px;
+}
+
+.btn-6 {
+    margin-left: 10px;
+}

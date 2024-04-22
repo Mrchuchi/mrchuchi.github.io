@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contacto</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- ANIMATE CSS -->
+<link
+rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="content">
+        <h1 class="logo">FORMULARIO</h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Create New Invoice</h3>
+                <form>
+                    <p class="block">
+                        <label>Product Name</label>
+                        <select name="Product Name">
+                            <option value="Seleccione...">Seleccione...</option>
+                            <option value="Nike">Nike</option>
+                            <option value="Adidas">Adidas</option>
+                            <option value="Rebook">Rebook</option>
+                            <option value="Diadora">Diadora</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Product Price</label>
+                        <input type="number" name="Product Price" placeholder="$ $ $">
+                    </p>
+                    <p>
+                        <label>Discount</label>
+                        <input type="number" name="Discount" class="btn-2" placeholder="0%-100%">
+                    </p>
+                       <p>
+                         <label> Product Warehouse</label>
+                        <select name="Warehouse">
+                            <option value="Seleccione...">Seleccione...</option>
+                            <option value="Medellin">Medellin</option>
+                            <option value="Cali">Cali</option>
+                            <option value="Bogota">Bogota</option>
+                            <option value="Barranquilla">Barranquilla</option>
+                            <option value="Popayan">Popayan</option>
+                        </select>
+                   
+                    </p>
+                    <p>
+                        <label>Select Store</label>
+                        <select name="Select Store" class="btn-4">
+                            <option value="Seleccione...">Seleccione...</option>
+                            <option value="Store 1">Store 1</option>
+                            <option value="Store 2">Store 2</option>
+                            <option value="Store 3">Store 3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Select Payment Method</label>
+                        <select name="Select Payment Method">
+                            <option value="Seleccione...">Seleccione...</option>
+                            <option value="PSE">PSE</option>
+                            <option value="Tarjeta de Credito">Tarjeta de Credito</option>
+                            <option value="Contraentrega">Contraentrega</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Date & Time</label>
+                        <input type="date" class="btn-6">
+                    </p>
+                    <p class="block">
+                        <button type="submit">Create Invoice</button>
+                    </p> 
+                    <p class="block">
+                    
+                        <button type="Print Invoice">Print Invoice</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
